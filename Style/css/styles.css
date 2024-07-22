@@ -23,12 +23,12 @@ body {
 
 .header_text {
     font-family: 'Nunito';
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 .buttons {
@@ -63,5 +63,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 90px;
+    margin-left: 15px;
+    margin-bottom: 45px;
 }
