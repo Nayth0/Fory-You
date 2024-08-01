@@ -22,11 +22,12 @@
                     }
                     
                     function moveButton() {
-                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
-                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
+                         var buttonRect = document.getElementById('noButton').getBoundingClientRect();
+                        var x = Math.random() * (window.innerWidth - buttonRect.width);
+                        var y = Math.random() * (window.innerHeight - buttonRect.height);
                         document.getElementById('noButton').style.left = `${x}px`;
                         document.getElementById('noButton').style.top = `${y}px`;
-                    }
+                    } 
                 </script> 
             </div>
         </div>

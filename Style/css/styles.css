@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #A7C7E7;
+    background: linear-gradient(to right, #A7C7E7 , #fff192);
 }
 
 /* Position the "No" button absolutely within body */
